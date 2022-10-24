@@ -10,12 +10,13 @@ namespace ConsoleApp1
 	{
 		static void Main(string[] args)
 		{
-			List<string> Products=new List<string>();
-			Products.Add("apples");
-			Products.Add("peaches");
-			Products.Add("guavas");
-			Products.Add("strawberries");
-			Products.Add("blueberries");
+			List<string> Products = new List<string>
+			{ "apples",
+			  "peaches",
+			  "guavas",
+			  "strawberries",
+			  "blueberries",
+			};
 		}
 	}
 }
