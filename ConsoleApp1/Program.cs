@@ -8,15 +8,17 @@ namespace ConsoleApp1
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+			static void Main(string[] args)
 		{
-			List<string> Products = new List<string>
-			{ "apples",
-			  "peaches",
-			  "guavas",
-			  "strawberries",
-			  "blueberries",
-			};
+			List<Products> products = new List<Products>();
+
+		}
+		class Products
+		{
+			public int Name { get; set; }
+			public int Price { get; set; }
+			public int Number { get; set; }
+			public int Color { get; set; }
 		}
 	}
 }
